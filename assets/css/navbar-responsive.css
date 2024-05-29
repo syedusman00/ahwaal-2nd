@@ -1,0 +1,329 @@
+/* Learge screen  */
+@media only screen and (min-width: 1200px) and (max-width: 1319px) {
+  .feature-one__left .section-title__title {
+    font-size: 39px;
+  }
+
+  .page-header__inner h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .page-header__shape-1,
+  .page-header__shape-2,
+  .page-header__shape-3,
+  .page-header__shape-4 {
+    display: none;
+  }
+
+  .sidebar--two {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1810px) {
+}
+
+/*--------------------------------------------------------------
+# Slider All Responsice Css
+--------------------------------------------------------------*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .main-slider-three .owl-theme .owl-dots {
+    align-items: flex-end;
+    left: inherit;
+    right: 60px;
+  }
+
+  .active .main-slider-three__img {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main-slider-three .owl-theme .owl-dots {
+    align-items: flex-end;
+    left: inherit;
+    right: 60px;
+  }
+
+  .active .main-slider-three__img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .main-slider__title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .main-slider__text br {
+    display: none;
+  }
+
+  .main-slider__btn-and-video-box {
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .main-slider__video-link {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .main-slider-two__title {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .main-slider-three .owl-theme .owl-dots {
+    display: none;
+  }
+
+  .active .main-slider-three__img {
+    display: none;
+  }
+
+  .main-slider-three__title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .main-slider-three__shape-3 {
+    display: none;
+  }
+
+  .main-slider-three__btn-box {
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .main-slider__btn-2 {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .main-slider-four__title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .main-slider-four__text br {
+    display: none;
+  }
+
+  .main-slider-four__btn-and-video-box {
+    flex-direction: column;
+  }
+
+  .main-slider-four__video-link {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .main-slider-four__shape-2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1319px) {
+  .main-slider-three .owl-theme .owl-dots {
+    align-items: flex-end;
+    left: inherit;
+    right: 60px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1499px) {
+}
+
+/*--------------------------------------------------------------
+# Main Menu All Responsice Css
+--------------------------------------------------------------*/
+
+@media only screen and (min-width: 1200px) and (max-width: 1319px) {
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .main-header__top-menu {
+    display: none;
+  }
+
+  .main-menu-two .mobile-nav__toggler {
+    color: #107cc2;
+  }
+
+  .main-menu-two .mobile-nav__toggler:hover {
+    color: var(--bixola-black);
+  }
+
+  .main-header-three__top-text {
+    display: none;
+  }
+
+  .main-header-three__top-social {
+    margin-left: 0;
+  }
+
+  .main-menu-three .mobile-nav__toggler {
+    color: #107cc2;
+  }
+
+  .main-menu-three .mobile-nav__toggler:hover {
+    color: var(--bixola-black);
+  }
+
+  .main-header-four__top-menu {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main-header__top-right {
+    display: none;
+  }
+
+  .main-header__top-inner {
+    justify-content: center;
+  }
+
+  .main-header-two__top {
+    display: none;
+  }
+
+  .main-menu-two .mobile-nav__toggler {
+    color: #107cc2;
+  }
+
+  .main-menu-two .mobile-nav__toggler:hover {
+    color: var(--bixola-black);
+  }
+
+  .main-menu-two__right {
+    display: none;
+  }
+
+  .main-menu-two__logo {
+    margin-right: 0;
+  }
+
+  .main-menu-two__left {
+    justify-content: space-between;
+    flex: 1;
+  }
+
+  .main-menu-two__wrapper-inner {
+    padding-right: 60px;
+  }
+
+  .main-header-three__top {
+    display: none;
+  }
+
+  .main-menu-three .mobile-nav__toggler {
+    color: #107cc2;
+  }
+
+  .main-menu-three .mobile-nav__toggler:hover {
+    color: var(--bixola-black);
+  }
+
+  .main-header-four__top {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-header__top {
+    display: none;
+  }
+
+  .main-menu__right {
+    display: none;
+  }
+
+  .main-header-two__top {
+    display: none;
+  }
+
+  .main-menu-two .mobile-nav__toggler {
+    color: #107cc2;
+  }
+
+  .main-menu-two .mobile-nav__toggler:hover {
+    color: var(--bixola-black);
+  }
+
+  .main-menu-two__right {
+    display: none;
+  }
+
+  .main-menu-two__logo {
+    margin-right: 0;
+  }
+
+  .main-menu-two__left {
+    justify-content: space-between;
+    flex: 1;
+  }
+
+  .main-menu-two__wrapper-inner {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .main-header-three__top {
+    display: none;
+  }
+
+  .main-menu-three .mobile-nav__toggler {
+    color: #107cc2;
+  }
+
+  .main-menu-three .mobile-nav__toggler:hover {
+    color: var(--bixola-black);
+  }
+
+  .main-menu-three__right {
+    display: none;
+  }
+
+  .main-header-four__top,
+  .main-menu-four__right {
+    display: none;
+  }
+
+  .main-menu-four__wrapper-inner {
+    padding: 0 20px 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1380px) {
+  .main-menu-two__button-and-call-box {
+    display: none;
+  }
+
+  .main-menu-two__wrapper-inner {
+    padding-right: 60px;
+  }
+
+  .main-menu-two__search-cart-box {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1830px) {
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 1700px) {
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1499px) {
+}
